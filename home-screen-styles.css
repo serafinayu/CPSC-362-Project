@@ -1,0 +1,60 @@
+.title {
+    width: 100%;
+    background-color: #E62F41
+}
+
+h1 {
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 81px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+    color: white;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+body {
+    text-align: center;
+    font-family: 'Outfit';
+}
+
+.dropdown_box {
+    width: 25%;
+    font-size: 13px;
+    padding: 10px 8px 10px 0px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius:1px;
+    overflow: hidden;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dropdown_box .dropdown_options {
+    width: 100%;
+    background:url('arrow.png') no-repeat;
+    background: 90% center;   
+}
+
+.dropdown_box .dropdown_options select{
+    background: transparent;
+    line-height: 1;
+    border: 0;
+    padding: 0x;
+    border-radius: 0;
+    width: 90%;
+    position: relative;
+    z-index: 10;
+    font-size: 1em;   
+}
+
+.button {
+    font-family: 'Outfit';
+    width: 12%;
+}
