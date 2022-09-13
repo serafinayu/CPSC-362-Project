@@ -1,31 +1,49 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Food 4 Thought</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food 4 Thought</title>
+    <link href="hs1.css" rel="stylesheet"/>
+    <link href='https://fonts.googleapis.com/css?family=Outfit' rel='stylesheet'>
 </head>
-<style>
-    h1 {text-align: center;}
-    p {text-align: center;}
-    div {text-align: center;}
-</style>
-<body>
-    <h1> Food 4 Thought</h1>
-    <label> What are you craving? </label>
-    <select name="food" id="food">/
-        <option value="pizza">Pizza</option>
-        <option value="ramen">Ramen</option>
-        <option value="burger">Burger</option>
-        <option value="taco">Taco</option>
-    </select>
-    <label> What's your budget</label>
-    <select name="price" id="Price">
-        <option value="$">Low</option>
-        <option value="$ $">Mid</option>
-        <option value="$ $ $">High</option>
-    </select>
 
-    <button type="button">Submit</button>
+<body>
+    <div class="title">
+            <h1> Food 4 Thought</h1>
+    </div>
+
+    <h3>What are you craving?</h3>
+    <div class="dropdown_box">
+        <div class="dropdown_options">
+            <select name="food" id="food">/
+                <option value="pizza">Pizza</option>
+                <option value="ramen">Ramen</option>
+                <option value="burger">Burger</option>
+                <option value="taco">Taco</option>
+            </select>
+        </div>
+    </div>
+    
+    <h3> What is your budget?</h3>  
+    <div class="dropdown_box">
+        <div class="dropdown_options">
+            <select name="price" id="Price">
+                <option value="$">Low</option>
+                <option value="$ $">Mid</option>
+                <option value="$ $ $">High</option>
+            </select>
+        </div>
+    </div>
+    
+    <br>
+    <button class="button" type="button">Submit</button>
 
 </body>
+
+
+<footer>
+    
+</footer>
 
 </html>
