@@ -1,0 +1,112 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Outfit';
+}
+
+.header {
+    /* creates the top purple border 
+        - need to find a way to make this banner expan all the way across and */
+
+    border: 1px solid #6738C4;
+    padding: 20px;
+    background: #8673AC;
+
+    font-size: 30px;
+    font-style: normal;
+    font-family: 'Outfit';
+    font-weight: 400;
+    line-height: 10px;
+    text-align: center;
+    color: white;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.icon {
+    text-align: center;
+    padding-top: 20px;
+}
+
+h3 {
+    text-align: center;
+}
+
+.dropdown_box {
+    width: 25%;
+    max-width: 30em;
+    font-size: 13px;
+    padding: 10px 8px 10px 0px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius:1px;
+    overflow: hidden;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dropdown_box .dropdown_options {
+    width: 100%;
+    background:url('arrow.png') no-repeat;
+    background: 90% center;   
+    text-align: center;
+}
+
+.dropdown_box .dropdown_options select{
+    background: transparent;
+    line-height: 1;
+    border: 0;
+    padding: 0x;
+    border-radius: 0;
+    width: 90%;
+    position: relative;
+    z-index: 10;
+    font-size: 1em;   
+    
+}
+
+option {
+    font-family: 'Outfit';
+}
+
+.container {
+    text-align: center;
+}
+
+.submit {
+    font-family: 'Outfit';
+    width: 12%;
+    max-width: 10em;
+}
+
+
+footer {
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    width: 99.9%;
+
+    background: #8673AC;
+    border: 1px solid #6738C4;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+
+    border-top: 1px solid #6738C3;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.credits {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.github-icon {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
