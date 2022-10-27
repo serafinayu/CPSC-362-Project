@@ -1,12 +1,28 @@
 <?php
-$con = mysqli_connect('localhost', 'root', '',’food_db’);
-if ($con->connect_error) {
-    die("Connection failled: " . $con->connect_error);
+$servername = "localhost";
+$username = "root";
+$password = "";
+$database = "foodDB";
+
+$conn = mysqli_connect($servername, $username, $password, $database);
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
 
 }
     echo "Connection sucessful";
+if($_SERVER["REQUEST_METHOD"] == "POST") {
+    $food = $_POST['food'];
+    if(empty($food)){
+        echo "Food is empty";
+    }
+    else {
+        echo $_POST['food'];
+    }
+    echo $_POST['food'];
+    echo $_POST['name'];
 
-$foodType = $_POST['foodType'];
-$pricePoint = $_POST['pricePoint'];
+   // $price = $_POST['Price'];
+}
+
 
 ?>

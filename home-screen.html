@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food 4 Thought</title>
+    <link href="all-styles.css" rel="stylesheet"/>
+    <!-- v The stylesheet for the font we are using throughout this project v-->
+    <link href='https://fonts.googleapis.com/css?family=Outfit' rel='stylesheet'>
+    <!-- Font Awesome:
+            - good icons we can use through out our project 
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    -->
+    <!-- Bootstrap: 
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    -->
+</head>
+
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <h1> Food 4 Thought</h1>
+    </header>
+
+    <!-- Food Icon -->
+    <div class="icon">
+        <img class="img-responsive" width="200" height="200" src="https://cdn3.iconfinder.com/data/icons/food-294/60/burger__drink__fastfood__juice__glass-512.png"/>
+    </div>
+
+    <!-- Dropdown Menus:
+            - need to implement Javascript and our database so we don't have to hardcode the categories
+    -->
+    <h3>What are you craving?</h3>
+    <form method="post" action="connection.php">
+    <div class="dropdown_box">
+        <div class="dropdown_options">
+            <label for="food">Food Type</label>
+            <select name="food" id="food">/
+                <option value="Pizza">Pizza</option>
+                <option value="Noodles">Noodles</option>
+                <option value="American">American</option>
+                <option value="Mexican">Mexican</option>
+                <option value="Thai">Thai</option>
+                <option value="Korean">Korean</option>
+                <option value="Japanese">Japanese</option>
+                <option value="Barbeque">Barbeque</option>
+                <option value="Seafood">Seafood</option>
+                <option value="Sandwiches">Sandwiches</option>
+                <option value="European">European</option>
+                <option value="Middle_Eastern">Middle Eastern</option>
+            </select>
+        </div>
+    </div>
+    
+    <h3> What is your budget?</h3>
+
+    <div class="dropdown_box">
+        <div class="dropdown_options">
+            <select name="price" id="Price">
+                <option value="Low">$</option>
+                <option value="Mid">$$</option>
+                <option value="High">$$$</option>
+            </select>
+        </div>
+    </div>
+    Name: <input type="text" name="name"><br>
+    
+
+    <br>
+
+    <!-- Submit Button -->
+    <div class="container">
+        <a href="results-page.html">
+        <button class="submit" type="submit">Submit</button>
+        </a>
+    </div>
+    </form>
+
+    <!-- Bottom Border and Credits
+            - add text including class, professor, and school 
+    -->
+    <footer>
+        <div class="credits">
+            <address>Written by Quoc Le, Sebastian Saucedo, and Serafina Yu <a href="https://github.com/serafinayu/CPSC-362-Project" target="_blank"><img class="github-icon" width="20" height="20" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Project's Github Page"/></a></address>
+        </div>
+        
+    </footer>
+
+</body>
+
+</html>
