@@ -43,7 +43,7 @@
   <!-- Bottom Border and Credits
             - add text including class, professor, and school 
     -->
-    <footer>
+  <footer>
     <div class="credits">
       <address>
         Written by Quoc Le, Sebastian Saucedo, and Serafina Yu

@@ -7,7 +7,7 @@
   <title>Food 4 Thought</title>
   <link href="all-styles.css" rel="stylesheet" />
   <!-- v The stylesheet for the font we are using throughout this project v-->
-  <link href="https://fonts.googleapis.com/css?family=Outfit" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka" rel="stylesheet" />
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/8749a0f96d.js" crossorigin="anonymous"></script>
   <!-- Bootstrap: 
