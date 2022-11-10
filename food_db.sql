@@ -1,3 +1,4 @@
+-- Active: 1667515266047@@127.0.0.1@3306
 CREATE DATABASE IF NOT EXISTS foodDB;
 USE foodDB;
 
@@ -6,9 +7,8 @@ CREATE table FOOD(
     Restaurant varchar(20),
     Food_type varchar (20),
     Street_address varchar (69),
-    Cost varchar (10),
-    PRIMARY KEY(Food_type)
-)
+    Cost varchar (10)
+);
 
 INSERT INTO FOOD(Restaurant, Food_type, Street_address, Cost)
 VALUES
@@ -29,13 +29,13 @@ VALUES
 /*japanese*/
 ('Roll and Grill', 'Japanese', '1308 E Chapman Ave, Fullerton, CA 92831', '$'),
 ('Waba Grill', 'Japanese', '565 N Commonwealth Ave, Fullerton, CA 92831', '$'),
-('Teriyaki House Grill', 'Japanese', '15544 La Mirada Blvd La Mirada, CA 90638', '$$')
+('Teriyaki House Grill', 'Japanese', '15544 La Mirada Blvd La Mirada, CA 90638', '$$'),
 ('Benihana', 'Japanese', '2100 E Ball Rd, Anaheim, CA 92806', '$$$'),
 ('Izakaya Takasei', 'Japanese', '2980 Yorba Linda Blvd Fullerton, CA 92831', '$$'),
 /*Middle Eastern*/
 ('Ikram grill', 'Middle Eastern', '9895 Warner Ave ste f, Fountain Valley, CA 92708', '$$'),
 ('Adana Grill', 'Middle Eastern', '1105 S Euclid St Ste F Fullerton, CA 92832', '$$'),
-('Forn Al Hara', 'Middle Eastern', '512 S Brookhurst St Ste 5 Anaheim, CA 92804', '$')
+('Forn Al Hara', 'Middle Eastern', '512 S Brookhurst St Ste 5 Anaheim, CA 92804', '$'),
 /*American*/
 ('The Hat', 'American', '1210 E Imperial Hwy, Brea, CA 92821', '$$'),
 ('Summit House Restaurant', 'American', '2000 E Bastanchury Rd, Fullerton, CA 92835', '$$$'),
