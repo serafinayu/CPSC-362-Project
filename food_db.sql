@@ -12,7 +12,6 @@ CREATE table FOOD(
 
 INSERT INTO FOOD(Restaurant, Food_type, Street_address, Cost)
 VALUES
-/* write shit here */
 /*bbq*/
 ('Craft by Smoke & Fire', 'Barbeque', '195 W Center St Promenade Anaheim, CA 92805', '$$'),
 ('King Chang', 'Barbeque', '5350 Beach Blv Buena Park, CA 90621', '$$$'),
