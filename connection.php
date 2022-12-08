@@ -79,7 +79,7 @@
   </div>
 
   <div class="container">
-    <a href="home-screen.html">
+    <a href="index.php">
       <button class="search-again" type="menu">Search Again</button>
     </a>
   </div>
